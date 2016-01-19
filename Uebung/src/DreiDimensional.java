@@ -3,7 +3,7 @@ public class DreiDimensional {
 	public static void main(String[] args) {
 		
 		int p=1;
-		int[][][] arrey= new int [10][10][10];
+		int[][][] arrey= new int [100][100][100];
 			for(int i=0; i<arrey.length; i++){
 			for(int j=0; j<arrey[i].length; j++){	
 			for(int k=0; k<arrey[i].length; k++){
@@ -20,6 +20,7 @@ public class DreiDimensional {
 			}
 			System.out.println();
 		}
+			System.out.println();
 	}
 }
 }
